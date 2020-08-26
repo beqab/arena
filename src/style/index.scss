@@ -395,16 +395,20 @@ display: inline-block;
 }
 .loginForm .cormContainer{
     padding: 0 15px;
+    form input{
+        width: 185px;
+    }
 }
 
 .d-sm-none{
 display: none;
 }
 .loginForm{
-    margin-top: 14vw;
+    margin-top: 20vw;
 }
 
-.secondSection .container .rightSection{
+.secondSection .container{
+ .rightSection{
     flex-direction: column;
     align-items: center;
     img{
@@ -412,10 +416,16 @@ display: none;
         margin-bottom: 10px;
     }
 }
+.appLinks {
+    margin-top: 27px;
+}
+
+}
 
 .thirdSection .container{
     flex-direction: column;
     padding-top: 10vw;
+    padding-bottom: 15vw;
      h3 {
         font-size: 25px;
      }

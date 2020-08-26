@@ -15,6 +15,9 @@ import Facebook from "../../assets/imgs/Facebook.svg";
 import Instagram from "../../assets/imgs/Instagram.svg";
 import Twitter from "../../assets/imgs/Twitter.svg";
 
+import "animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
+
 class Home extends React.Component {
     scrollTop = () => {
         window.scrollTo({
@@ -28,7 +31,9 @@ class Home extends React.Component {
                 <div className="gradientBg">
                     <div className="firsSection">
                         <img src={Knight1} alt="Knight1" className="Knight1" />
+
                         <img src={Knight2} alt="Knight2" className="Knight2" />
+
                         <div className="scrollDownArr">
                             {/* <img onClick={this.scrollTop} src={Arrows} alt="arr" /> */}
 
@@ -40,19 +45,23 @@ class Home extends React.Component {
                             </div>
                         </div>
                         <div className="loginForm">
-                            <h1>ARENA</h1>
-                            <div className="cormContainer">
-                                <form>
-                                    <div>
-                                        <input placeholder="username" />
-                                        <input className="password" placeholder="password" type="password" />
+                            <ScrollAnimation animateIn="animate__backInDown" animateOnce={true}>
+                                <h1>ARENA</h1>
+                            </ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__swing" animateOnce={true}>
+                                <div className="cormContainer">
+                                    <form>
+                                        <div>
+                                            <input placeholder="username" />
+                                            <input className="password" placeholder="password" type="password" />
+                                        </div>
+                                        <button>log in</button>
+                                    </form>
+                                    <div className="resetPassLink text-center ">
+                                        forgot your password? <a href=""> click here </a>
                                     </div>
-                                    <button>log in</button>
-                                </form>
-                                <div className="resetPassLink text-center ">
-                                    forgot your password? <a href=""> click here </a>
                                 </div>
-                            </div>
+                            </ScrollAnimation>
                         </div>
                         <div className="scrollDown text-center">
                             <img onClick={this.scrollTop} src={Scroll} />
@@ -61,52 +70,70 @@ class Home extends React.Component {
 
                     <div className="secondSection">
                         <div className="container">
-                            <div className="left">
-                                <h3>ARENA</h3>
-                                <p>
-                                    Check out mobile multiplayer mobile game “ARENA”. where users can earn virtual coins
-                                    and then withdraw the money in crypto curency.
-                                </p>
-                                <a href="#">read more</a>
+                            <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
+                                <div className="left">
+                                    <h3>ARENA</h3>
+                                    <p>
+                                        Check out mobile multiplayer mobile game “ARENA”. where users can earn virtual
+                                        coins and then withdraw the money in crypto curency.
+                                    </p>
+                                    <a href="#">read more</a>
 
-                                <div className="appLinks">
-                                    <img src={AppStore} alt="AppStore" />
-                                    <img src={GoogleStore} alt="GoogleStore" />
+                                    <div className="appLinks">
+                                        <img src={AppStore} alt="AppStore" />
+                                        <img src={GoogleStore} alt="GoogleStore" />
+                                    </div>
                                 </div>
-                            </div>
+                            </ScrollAnimation>
                             <div className="rightSection">
-                                <img src={Diagram1} alt="" />
-                                <img src={Diagram2} alt="" />
-                                <img src={Diagram3} alt="" />
+                                <ScrollAnimation animateIn="animate__zoomIn" delay={200} animateOnce={true}>
+                                    <img src={Diagram1} alt="" />
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="animate__zoomIn" delay={400} animateOnce={true}>
+                                    <img src={Diagram2} alt="" />
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="animate__zoomIn" delay={600} animateOnce={true}>
+                                    <img src={Diagram3} alt="" />
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
                     <div className="thirdSection">
                         <div className="container">
-                            <div className="textSection left">
-                                <h3>ACCOUNT</h3>
-                                <p>description description description description description</p>
-                                <img src={Circle} alt="" />
-                            </div>
+                            <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
+                                <div className="textSection left">
+                                    <h3>ACCOUNT</h3>
+                                    <p>description description description description description</p>
+                                    <img src={Circle} alt="" />
+                                </div>
+                            </ScrollAnimation>
                             <div className="middle d-sm-none">
-                                <img alt="Knight3" src={Knight3} />
+                                <ScrollAnimation animateIn="animate__bounceIn" animateOnce={true}>
+                                    <img alt="Knight3" src={Knight3} />
+                                </ScrollAnimation>
                             </div>
-                            <div className="textSection right">
-                                <h3>F.A.Q</h3>
-                                <p>description description description description description</p>
-                                <img src={Circle} />
-                            </div>
+                            <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
+                                <div className="textSection right">
+                                    <h3>F.A.Q</h3>
+                                    <p>description description description description description</p>
+                                    <img src={Circle} />
+                                </div>
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>
                 <div className="fourthSection">
                     <div className="container">
-                        <div className="left">
-                            <h3>ARENA BATTLEFIELD</h3>
-                            <p> Play, win and be the strongest on a battlefield.</p>
-                        </div>
+                        <ScrollAnimation animateIn="animate__fadeInUp" animateOnce={true}>
+                            <div className="left">
+                                <h3>ARENA BATTLEFIELD</h3>
+                                <p> Play, win and be the strongest on a battlefield.</p>
+                            </div>
+                        </ScrollAnimation>
                         <div className="right ">
-                            <img src={Knight4} alt="Knight4" />
+                            <ScrollAnimation animateIn="animate__bounceIn" animateOnce={true}>
+                                <img src={Knight4} alt="Knight4" />
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>
