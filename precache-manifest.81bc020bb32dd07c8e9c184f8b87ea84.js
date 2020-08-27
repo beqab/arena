@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e49bad057f528dcba7e57223e74a6e37",
+    "revision": "e8c71513711172bfe48a757a535c17bd",
     "url": "/arena/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/arena/static/css/2.f01c5455.chunk.css"
   },
   {
-    "revision": "9262bab0a1fe22a0f2af",
-    "url": "/arena/static/css/main.1a60e9a2.chunk.css"
+    "revision": "f4278f57f07874e7806d",
+    "url": "/arena/static/css/main.3390fead.chunk.css"
   },
   {
     "revision": "4e74652d364a900ec7ba",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/arena/static/js/2.5bf0399d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9262bab0a1fe22a0f2af",
+    "revision": "f4278f57f07874e7806d",
     "url": "/arena/static/js/main.f31a9bf3.chunk.js"
   },
   {
@@ -62,18 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc35bba9051c4b316247c71f82eba5f2",
     "url": "/arena/static/media/Knight4.dc35bba9.svg"
-  },
-  {
-    "revision": "bd5c947d74e43ae1fdd9592053caf407",
-    "url": "/arena/static/media/MYRIADPRO-REGULAR.bd5c947d.ttf"
-  },
-  {
-    "revision": "c980669629cce3518f9aebf8573cdbe7",
-    "url": "/arena/static/media/MYRIADPRO-REGULAR.c9806696.eot"
-  },
-  {
-    "revision": "d75d7f70aa160104a45a743eae7a8a7e",
-    "url": "/arena/static/media/MYRIADPRO-REGULAR.d75d7f70.svg"
   },
   {
     "revision": "e3e21ec37205a621b95d56a801bc0856",
