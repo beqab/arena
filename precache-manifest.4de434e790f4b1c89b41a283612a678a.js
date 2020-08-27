@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8c71513711172bfe48a757a535c17bd",
+    "revision": "34b73f8100f42f2e52da6d1f6bb82af0",
     "url": "/arena/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/arena/static/css/2.f01c5455.chunk.css"
   },
   {
-    "revision": "f4278f57f07874e7806d",
-    "url": "/arena/static/css/main.3390fead.chunk.css"
+    "revision": "6471eaf8754876173340",
+    "url": "/arena/static/css/main.3a2986f9.chunk.css"
   },
   {
     "revision": "4e74652d364a900ec7ba",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/arena/static/js/2.5bf0399d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4278f57f07874e7806d",
+    "revision": "6471eaf8754876173340",
     "url": "/arena/static/js/main.f31a9bf3.chunk.js"
   },
   {
