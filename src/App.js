@@ -4,11 +4,13 @@ import "./style/index.scss";
 import {connect} from "react-redux";
 import {Route} from "react-router-dom";
 import Home from "./components/pages/Home";
+import withdraw from "./components/pages/withdraw";
 
 function App() {
     return (
         <div className="App">
             <Route path="/" exact component={Home} />
+            <Route path="/withdraw" exact component={withdraw} />
         </div>
     );
 }
