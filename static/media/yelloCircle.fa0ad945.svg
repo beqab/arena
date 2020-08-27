@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.16" height="40.18" viewBox="0 0 40.16 40.18">
+  <g id="Group_2" data-name="Group 2" transform="translate(-504.5 -2764.38)">
+    <g id="Group_1" data-name="Group 1">
+      <g id="Ellipse_5_copy" data-name="Ellipse 5 copy" transform="translate(504.5 2764.38)" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="8 4">
+        <ellipse cx="20.08" cy="20.09" rx="20.08" ry="20.09" stroke="none"/>
+        <ellipse cx="20.08" cy="20.09" rx="19.08" ry="19.09" fill="none"/>
+      </g>
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="15.44" cy="15.44" r="15.44" transform="translate(509.12 2769.06)" fill="#fcb300"/>
+    </g>
+    <text id="_" data-name="+" transform="translate(518.766 2789.136)" fill="#fff" font-size="20.838" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>
