@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/arena/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/arena/static/js/main.63f2beaf.chunk.js",
-    "main.js.map": "/arena/static/js/main.63f2beaf.chunk.js.map",
+    "main.css": "/arena/static/css/main.1a60e9a2.chunk.css",
+    "main.js": "/arena/static/js/main.f31a9bf3.chunk.js",
+    "main.js.map": "/arena/static/js/main.f31a9bf3.chunk.js.map",
     "runtime-main.js": "/arena/static/js/runtime-main.72b59427.js",
     "runtime-main.js.map": "/arena/static/js/runtime-main.72b59427.js.map",
-    "static/js/2.c7198c4b.chunk.js": "/arena/static/js/2.c7198c4b.chunk.js",
-    "static/js/2.c7198c4b.chunk.js.map": "/arena/static/js/2.c7198c4b.chunk.js.map",
+    "static/css/2.f01c5455.chunk.css": "/arena/static/css/2.f01c5455.chunk.css",
+    "static/js/2.5bf0399d.chunk.js": "/arena/static/js/2.5bf0399d.chunk.js",
+    "static/js/2.5bf0399d.chunk.js.map": "/arena/static/js/2.5bf0399d.chunk.js.map",
     "index.html": "/arena/index.html",
-    "precache-manifest.af06c2aa702dc9816327ec1ba2099534.js": "/arena/precache-manifest.af06c2aa702dc9816327ec1ba2099534.js",
+    "precache-manifest.c26ad3a64324a091ccdbd744996a3d11.js": "/arena/precache-manifest.c26ad3a64324a091ccdbd744996a3d11.js",
     "service-worker.js": "/arena/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/arena/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.c7198c4b.chunk.js.LICENSE.txt": "/arena/static/js/2.c7198c4b.chunk.js.LICENSE.txt",
+    "static/css/2.f01c5455.chunk.css.map": "/arena/static/css/2.f01c5455.chunk.css.map",
+    "static/css/main.1a60e9a2.chunk.css.map": "/arena/static/css/main.1a60e9a2.chunk.css.map",
+    "static/js/2.5bf0399d.chunk.js.LICENSE.txt": "/arena/static/js/2.5bf0399d.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/arena/static/media/1.eb53abfa.svg",
     "static/media/2.svg": "/arena/static/media/2.e10d2467.svg",
     "static/media/3.svg": "/arena/static/media/3.810b83cf.svg",
@@ -21,14 +23,16 @@
     "static/media/Knight2-2.svg": "/arena/static/media/Knight2-2.9fbc39f3.svg",
     "static/media/Knight3-3.png": "/arena/static/media/Knight3-3.2dd7dca8.png",
     "static/media/Knight4.svg": "/arena/static/media/Knight4.dc35bba9.svg",
+    "static/media/index.scss": "/arena/static/media/MYRIADPRO-REGULAR.d75d7f70.svg",
     "static/media/Twitter.svg": "/arena/static/media/Twitter.e3e21ec3.svg",
     "static/media/logo.svg": "/arena/static/media/logo.5d5d9eef.svg",
     "static/media/yelloCircle.svg": "/arena/static/media/yelloCircle.fa0ad945.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.72b59427.js",
-    "static/js/2.c7198c4b.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.63f2beaf.chunk.js"
+    "static/css/2.f01c5455.chunk.css",
+    "static/js/2.5bf0399d.chunk.js",
+    "static/css/main.1a60e9a2.chunk.css",
+    "static/js/main.f31a9bf3.chunk.js"
   ]
 }

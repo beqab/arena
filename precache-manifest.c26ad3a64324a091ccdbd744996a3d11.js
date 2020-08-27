@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e854237970d1bd215eeffb214190ca54",
+    "revision": "e49bad057f528dcba7e57223e74a6e37",
     "url": "/arena/index.html"
   },
   {
-    "revision": "b74d36b9cbb89470c3a1",
-    "url": "/arena/static/css/main.5ecd60fb.chunk.css"
+    "revision": "4e74652d364a900ec7ba",
+    "url": "/arena/static/css/2.f01c5455.chunk.css"
   },
   {
-    "revision": "4b5fe1b7d560fee6d37f",
-    "url": "/arena/static/js/2.c7198c4b.chunk.js"
+    "revision": "9262bab0a1fe22a0f2af",
+    "url": "/arena/static/css/main.1a60e9a2.chunk.css"
+  },
+  {
+    "revision": "4e74652d364a900ec7ba",
+    "url": "/arena/static/js/2.5bf0399d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/arena/static/js/2.c7198c4b.chunk.js.LICENSE.txt"
+    "url": "/arena/static/js/2.5bf0399d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b74d36b9cbb89470c3a1",
-    "url": "/arena/static/js/main.63f2beaf.chunk.js"
+    "revision": "9262bab0a1fe22a0f2af",
+    "url": "/arena/static/js/main.f31a9bf3.chunk.js"
   },
   {
     "revision": "8c7cf8d19eaba1a0457e",
@@ -58,6 +62,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc35bba9051c4b316247c71f82eba5f2",
     "url": "/arena/static/media/Knight4.dc35bba9.svg"
+  },
+  {
+    "revision": "bd5c947d74e43ae1fdd9592053caf407",
+    "url": "/arena/static/media/MYRIADPRO-REGULAR.bd5c947d.ttf"
+  },
+  {
+    "revision": "c980669629cce3518f9aebf8573cdbe7",
+    "url": "/arena/static/media/MYRIADPRO-REGULAR.c9806696.eot"
+  },
+  {
+    "revision": "d75d7f70aa160104a45a743eae7a8a7e",
+    "url": "/arena/static/media/MYRIADPRO-REGULAR.d75d7f70.svg"
   },
   {
     "revision": "e3e21ec37205a621b95d56a801bc0856",
