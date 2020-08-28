@@ -5,12 +5,14 @@ import {connect} from "react-redux";
 import {Route} from "react-router-dom";
 import Home from "./components/pages/Home";
 import withdraw from "./components/pages/withdraw";
+import ChangePassword from "./components/pages/changePassword";
 
 function App() {
     return (
         <div className="App">
             <Route path="/" exact component={Home} />
             <Route path="/withdraw" exact component={withdraw} />
+            <Route path="/ChangePassword" exact component={ChangePassword} />
         </div>
     );
 }
