@@ -72,6 +72,16 @@ input{
             display: flex;
             padding: 16px 26px;
             align-items: center;
+            position: relative;
+            .serverError{
+                left: 0px;
+                position: absolute;
+                color: #920e0e;
+                width: 100%;
+                top: 5px;
+                text-align: center;
+            
+            }
             input{
                 background: none;
                 border: none;
@@ -102,6 +112,16 @@ input{
                 font-size: 16px;
                 cursor: pointer;
                 transition: 0.3s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                img{
+                    width: 20px;
+                    margin-right: 6px;
+                    position: absolute;
+                    left: 20px;
+                }
                 &:hover{
                     box-shadow: 1px 2px 6px 1px #3a686d;
                 }

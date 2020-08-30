@@ -1,29 +1,31 @@
 import React from "react";
-import Arrows from "../../assets/imgs/header.png";
-import Scroll from "../../assets/imgs/scroll.png";
-import AppStore from "../../assets/imgs/appl.png";
-import GoogleStore from "../../assets/imgs/app.png";
-import Diagram1 from "../../assets/imgs/1.svg";
-import Diagram2 from "../../assets/imgs/2.svg";
-import Diagram3 from "../../assets/imgs/3.svg";
-import Circle from "../../assets/imgs/yelloCircle.svg";
-import Knight1 from "../../assets/imgs/Knight1-1.svg";
-import Knight2 from "../../assets/imgs/Knight2-2.svg";
-import Knight3 from "../../assets/imgs/Knight3-3.png";
-import Knight4 from "../../assets/imgs/Knight4.svg";
-import Facebook from "../../assets/imgs/Facebook.svg";
-import Instagram from "../../assets/imgs/Instagram.svg";
-import Twitter from "../../assets/imgs/Twitter.svg";
+import Arrows from "../../../assets/imgs/header.png";
+import Login from "./login";
+
+import Scroll from "../../../assets/imgs/scroll.png";
+import AppStore from "../../../assets/imgs/appl.png";
+import GoogleStore from "../../../assets/imgs/app.png";
+import Diagram1 from "../../../assets/imgs/1.svg";
+import Diagram2 from "../../../assets/imgs/2.svg";
+import Diagram3 from "../../../assets/imgs/3.svg";
+import Circle from "../../../assets/imgs/yelloCircle.svg";
+import Knight1 from "../../../assets/imgs/Knight1-1.svg";
+import Knight2 from "../../../assets/imgs/Knight2-2.svg";
+import Knight3 from "../../../assets/imgs/Knight3-3.png";
+import Knight4 from "../../../assets/imgs/Knight4.svg";
+import Facebook from "../../../assets/imgs/Facebook.svg";
+import Instagram from "../../../assets/imgs/Instagram.svg";
+import Twitter from "../../../assets/imgs/Twitter.svg";
 
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
 
 class Home extends React.Component {
     scrollTop = () => {
-        window.scrollTo({
-            top: window.innerHeight,
-            behavior: "smooth",
-        });
+        // window.scrollTo({
+        //     top: window.innerHeight,
+        //     behavior: "smooth",
+        // });
     };
     render() {
         return (
@@ -50,13 +52,7 @@ class Home extends React.Component {
                             </ScrollAnimation>
                             <ScrollAnimation animateIn="animate__swing" animateOnce={true}>
                                 <div className="cormContainer">
-                                    <form>
-                                        <div>
-                                            <input placeholder="username" />
-                                            <input className="password" placeholder="password" type="password" />
-                                        </div>
-                                        <button>log in</button>
-                                    </form>
+                                    <Login />
                                     <div className="resetPassLink text-center ">
                                         forgot your password? <a href=""> click here </a>
                                     </div>
