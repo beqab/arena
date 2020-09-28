@@ -11,3 +11,7 @@ export const profile = (data) => {
 export const withdraw = (data) => {
   return axios.post("/withdraw");
 };
+
+export const resetPassword = (data) => {
+  return axios.post("/password/reset", data);
+};

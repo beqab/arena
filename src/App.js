@@ -6,7 +6,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./components/pages/home/Home";
 import axios from "axios";
 import withdraw from "./components/pages/withdraw";
-import ChangePassword from "./components/pages/changePassword";
+import changePassword from "./components/pages/changePassword";
 import { setCurrentUser } from "./redux/auth/authActions";
 import PrivateRoute from "./components/utils/routes/privetaRoute";
 import { setAuthToken } from "./components/api/helpers";
@@ -43,8 +43,8 @@ function App() {
     <div className="App">
       <Switch>
         <Route path="/" exact component={Home} />
+        <PrivateRoute path="/ChangePassword" exact component={changePassword} />
         <PrivateRoute path="/withdraw" exact component={withdraw} />
-        <Route path="/ChangePassword" exact component={ChangePassword} />
       </Switch>
     </div>
   );

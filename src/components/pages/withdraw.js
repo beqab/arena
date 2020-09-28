@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux";
 import { profile, withdraw } from "../api/api";
 import { useForm } from "react-hook-form";
 import classnames from "classnames";
+import { Link } from "react-router-dom";
 
 const Withdraw = () => {
   const {
@@ -64,6 +65,7 @@ const Withdraw = () => {
 
   return (
     <div className="withdraw">
+      <Link to="/ChangePassword">/ChangePassword</Link>
       <img src={Knight1} alt="Knight1" className="Knight1" />
       <img src={Knight2} alt="Knight2" className="Knight2" />
       <div className="copyright">© 2020 ARENA.All rights reserved.</div>
