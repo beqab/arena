@@ -302,6 +302,7 @@ footer {
         padding-left: 15px;
         columns: #aeb0b5;
         width: 300px;
+        color: #fff;
       }
 
       button {
@@ -372,6 +373,7 @@ footer {
   position: relative;
   padding-bottom: 60px;
   box-sizing: border-box;
+  padding-bottom: 120px;
   .content {
     position: relative;
     z-index: 3;
@@ -387,13 +389,15 @@ footer {
     max-width: 19vw;
     top: 6vw;
     left: 3vw;
+    max-height: 100vh;
     position: absolute;
   }
   .Knight2 {
     position: absolute;
     max-width: 17vw;
-    top: -3vw;
+    top: 0vw;
     right: 7vw;
+    max-height: 100vh;
   }
   h1 {
     font-size: 130px;
@@ -512,6 +516,10 @@ footer {
     text-align: center;
     margin-top: 0px;
     padding-top: 50px;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
   }
   .content {
     margin-top: 8vw;
@@ -519,12 +527,22 @@ footer {
       max-width: 400px;
       margin: auto;
       text-align: center;
+      position: relative;
+      .ErrorMsgs {
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translate(-50%, calc(-100% + -11px));
+        color: red;
+        width: 100%;
+      }
       > div {
         background: #4e6a81;
         border-radius: 10px;
         padding: 10px 20px;
         display: flex;
         flex-direction: column;
+
         input {
           background: transparent;
           border: none;

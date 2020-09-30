@@ -19,6 +19,7 @@ import Twitter from "../../../assets/imgs/Twitter.svg";
 
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import { Redirect } from "react-router-dom";
 
 class Home extends React.Component {
   scrollTop = () => {
@@ -27,7 +28,13 @@ class Home extends React.Component {
       behavior: "smooth",
     });
   };
+
   render() {
+    const isAuth = localStorage.getItem("token");
+    if (isAuth) {
+      return <Redirect to="/withdraw" />;
+    }
+
     return (
       <>
         <div className="gradientBg">
